@@ -39,15 +39,12 @@ Springboot directory scanning
 
 4、使用多个文件记录不同情景下过滤的URL，便于追踪产生的错误和漏报。
 
-
-
-过程及结果文件 默认输出在当前【result-时间戳】目录下，
-
-
+    过程及结果文件 默认输出在当前【result-时间戳】目录下，
     其中 scan_waive.txt 存放基于404、403、500状态码 过滤的URL。   （waive 放弃）
     其中 scan_filter.txt  存放基于【长度、大小、头部比特】过滤的URL。（filter 过滤
     其中 scan_retry.txt  存放根据请求结果自动重试的URL和对应重试次数。（retry 重试）
-    其中 scan_result.txt 存放状态码为200,并且不被过滤的URL，此文件为实际结果文件。     （result 结果）
+    
+
     其中 scan_result.txt 存放状态码为200,并且不被过滤的URL，此文件为实际结果文件。     （result 结果）
     其中 scan_manual.txt 存放当重试多次依然无法判断为正常请求时的URL，此文件结果需用户进行手动重试。（manual 手动）
 
