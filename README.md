@@ -1,6 +1,8 @@
 # springboot_scan
 Springboot directory scanning  
 
+# 项目由来
+
 
 项目过程中发现现有的工具对springboot路径扫描大多存在误报和遗漏现象。
 
@@ -63,7 +65,16 @@ Springboot directory scanning
 
 
 
-TODO:
+# 快速使用
+
+    1、将目标URL填写在springboot_target.txt，并运行 ython springboot_scan.p
+
+
+
+
+
+
+# TODO:
 
 
 1、对可能存在咯都的请求URL进行提示。(极小概率)
