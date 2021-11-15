@@ -67,11 +67,7 @@ Springboot directory scanning
 
 # 快速使用
 
-    1、将目标URL填写在springboot_target.txt，并运行 ython springboot_scan.p
-
-
-
-
+    1、将目标URL填写在springboot_target.txt，并运行 ython springboot_scan.py
 
 
 # TODO:
