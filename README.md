@@ -2,7 +2,7 @@
 Springboot directory scanning  
 
 
-注意：此工具暂时不能够直接用于不可访问的域名，没有添加对应的报错处，请确认未springboot框架再使用。
+注意：此工具暂时不能够直接用于不可访问的域名，没有添加对应的报错处理，请确认为springboot框架再使用。
 
 
 # 项目由来
