@@ -4,6 +4,9 @@ Springboot directory scanning
 
 注意：此工具暂时不能够直接用于不可访问的域名，没有添加对应的报错处理，请确认为springboot框架再使用。
 
+# 更新记录
+
+20220316 更新版本为0.6.2 更新nacos配置字典
 
 # 项目由来
 
