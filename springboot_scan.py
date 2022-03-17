@@ -54,7 +54,7 @@ def requests_print(logger_handle, logger_source, target_url, resp_status, resp_c
     size_and_length_sum = resp_content_length + resp_text_size
     logger_string = '{},"{}",{},{},{},{},{},{}'.format(logger_source, target_url, resp_status, resp_content_length,
                                                        resp_text_size, size_and_length_sum, resp_bytes_head,
-                                                       retry_times - retry)
+                                                       retry_times - retry,allow_redirects)
     print(logger_handle, logger_string,'\n',end='')
     if logger_handle == "log_result":
         log_result.info(logger_string)
@@ -136,7 +136,7 @@ def requests_stream(method="get", scope=None, target_url=None, cookie=None, stre
     resp_text_size = 0
     resp = None
     if retry < 0:
-        requests_print("log_manual", "Retry-{}-Times".format(retry_times), target_url, resp_status, resp_content_length,resp_text_size, resp_bytes_head, retry, allow_redirects=allow_redirects)
+        requests_print("log_manual", "Retry-{}-Times".format(retry_times), target_url, resp_status, resp_content_length,resp_text_size, resp_bytes_head, retry)
         return
 
     # 包含关键字的目标必须使用post方法
