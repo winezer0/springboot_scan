@@ -6,6 +6,8 @@ Springboot directory scanning
 
 # 更新记录
 
+20220317 更新版本为0.6.3 紧急修复一个参数传递BUG
+
 20220316 更新版本为0.6.2 更新nacos配置字典
 
 # 项目由来
