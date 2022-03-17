@@ -275,7 +275,7 @@ def requests_stream(method="get", scope=None, target_url=None, cookie=None, stre
 
 
 if __name__ == '__main__':
-    version = "0.6.2"
+    version = "0.6.3"
     url_list = []
     path_list = []
     target_dict = defaultdict(dict)
