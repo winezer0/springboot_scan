@@ -1,14 +1,14 @@
+# 框架扩容
+
+请移步winezer0/DynaScan [ https://github.com/winezer0/dynascan], 实现动态字典渲染、动态结果判断、自动命中记录、的敏感文件扫描器   
+
+winezer0/DynaScan:  完美支持springboot静态与动态字典,并支持额外的扫描,。
+
 # springboot_scan
+
 Springboot directory scanning  
 
-
 注意：此工具暂时不能够直接用于不可访问的域名，没有添加对应的报错处理，请确认为springboot框架再使用。
-
-请移步winezer0/DynaScan,完美支持springboot静态与动态字典,并支持额外的扫描,。
-
-winezer0/DynaScan: 实现动态字典渲染、动态结果判断、自动命中记录、的敏感文件扫描器
-
-https://github.com/winezer0/dynascan
 
 
 # 更新记录
